@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyspark-aidetic-assignment"
+version = "0.1.0"
+description = ""
+authors = ["irfan <irfankalam237@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyspark_aidetic_assignment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.5.0"
+geopy = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
